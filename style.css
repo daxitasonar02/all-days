@@ -1,0 +1,292 @@
+/* CSS Document */
+body{
+	background-color:#820506;
+	color:#53ad55;
+	padding:0 0 10px 0;
+	margin:0px;
+	}
+td, ul, p, img, form, input, select, textarea, label, a{
+	padding:0px;
+	margin:0px;
+	}
+img{
+	border:0;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	outline:none;
+}
+/*----------------------HEADER PART START -------------------------------*/
+.header{
+	background:url(headerpic.jpg) no-repeat 343px 0;
+	height:266px;
+        
+	}
+.logo{
+	margin:30px 0 54px 2px;
+	}
+.cap{
+	font:normal 18px/20px Arial, Helvetica, sans-serif;
+	color:#ffd0d0; background-color:inherit;
+	padding:0 0 9px 0;
+	}
+.greentext{
+	font:bold 11px/12px Arial, Helvetica, sans-serif;
+	color:#9CAA13; background-color:inherit;
+	padding:0 0 6px 0;
+	}
+.greentext a{
+	text-decoration:underline;
+	font:bold 11px/12px Arial, Helvetica, sans-serif;
+	color:#9CAA13; background-color:inherit;
+	padding:0 0 6px 0;
+	}
+.greentext a:hover{
+	text-decoration:none;
+	}
+.text{
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#BFBDBD; background-color:inherit;
+	padding:0 0 6px 0;
+	}
+.text a{
+	text-decoration:underline;
+	font:normal 11px/15px Arial, Helvetica, sans-serif;
+	color:#BFBDBD; background-color:inherit;
+	padding:0 0 6px 0;
+	}
+.text a:hover{
+	text-decoration:none;
+	}
+.morebutton{
+	background:url(images/more-button.jpg) no-repeat 0 0;
+	font:bold 11px/21px Arial, Helvetica, sans-serif;
+	color:#FFFFFF; background-color:inherit;
+	padding:0 0 0 13px;
+	}
+.morebutton a{
+	font:bold 11px/21px Arial, Helvetica, sans-serif;
+	color:#FFFFFF; background-color:inherit;
+	text-decoration:none;
+}
+.morebutton a:hover{
+	color:#FF8800; background-color:inherit;
+	}
+.learnmore{
+	background:url(images/learnmore.jpg) no-repeat 490px 1px;
+	font:bold 11px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#A02F00; background-color:inherit;
+	padding:0 8px 0 0;
+	}
+.learnmore a{
+	font:bold 11px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#A02F00; background-color:inherit;
+	text-decoration:none;
+	}
+.learnmore a:hover{
+	text-decoration:underline;
+	}
+/*----------------------HEADER PART END -------------------------------*/
+
+/*---------------------- NAVIGATION PART START -------------------------------*/
+.navigationbg{
+	background-color:#FF8800;
+	color:#000000;
+	}
+ul.nav{
+    list-style-type:none;
+	padding:0 0 0 245px;
+	margin:0px;
+	}
+ul.nav li{
+	background:url(images/nav-divider.jpg) no-repeat left center;
+    float:left;
+	width:auto;
+	}
+ul.nav li a{
+ 	font:bold 12px/40px Arial, Helvetica, sans-serif;
+	color:#000000; background-color:inherit;
+    text-decoration:none;
+	display:block;
+	margin:0 10px 0 14px;
+}
+ul.nav li a:hover{
+	color:#D22325; background-color:inherit;
+}
+ul.nav li a.active{
+	color:#D22325; background-color:inherit;
+	}
+ul.nav li.noimg{
+	background:none;
+	}
+/*---------------------- NAVIGATION PART END -------------------------------*/
+/*---------------------- Member login part start -------------------------------*/
+.logintext{
+	font:normal 20px/22px Arial, Helvetica, sans-serif;
+	color:#B8BBC3; background-color:inherit;
+	padding:19px 0 10px 0;
+	}
+.username{
+	font:normal 11px/24px Arial, Helvetica, sans-serif;
+	color:#B0B816; background-color:inherit;
+	}
+.forgetpassword{
+	font:normal 11px/48px Arial, Helvetica, sans-serif;
+	color:#B0B816; background-color:inherit;
+	}
+.textfield{
+	width:254px;
+	height:21px;
+	border:1px solid #DAD4D4;
+	}
+.click{
+	font:normal 11px/48px Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	}
+.click a{
+	text-decoration:underline;
+	font:normal 11px/48px Arial, Helvetica, sans-serif;
+	color:#d9cd32; background-color:inherit;
+	}
+.click a:hover{
+	text-decoration:none;
+	}
+.categories{
+	font:normal 20px/22px Arial, Helvetica, sans-serif;
+	color:#B8BBC3; background-color:inherit;
+	padding:30px 0 27px 0;
+	}
+ul.menu{
+	list-style-type:none; 
+	padding:8px 0 15px 0; 
+	margin:0;
+	}
+ul.menu li{
+	background:url(images/bullet.jpg) no-repeat 0 55%;
+	padding:0px; 
+	margin:0px;
+	}
+ul.menu li a{
+	font:normal 11px/29px Arial, Helvetica, sans-serif;
+	color:#D22325;  background-color:inherit;
+	padding:0 0 0 18px;	
+	height:27px;
+	text-decoration:underline;
+	}
+ul.menu li a:hover{
+	text-decoration:none;
+	}
+/*---------------------- Member login part end -------------------------------*/
+/*---------------------- Welcome part start -------------------------------*/
+.welcome{
+	font:normal 24px/25px Arial, Helvetica, sans-serif;
+	color:#ACA102; background-color:inherit;
+	padding:41px 0 19px 29px;
+	}
+.company{
+	font:normal 24px/25px Arial, Helvetica, sans-serif;
+	color:#7A7A7A; background-color:inherit;
+	}
+.caption{
+	font:bold 11px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	padding:0 0 3px 15px;
+	}
+.caption a{
+	text-decoration:underline;
+	font:bold 11px/12px Verdana, Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	padding:0 0 3px 14px;
+	}
+.caption a:hover{
+	text-decoration:none;
+	}
+.welcometext{
+	font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#8F8F8F; background-color:inherit;
+	padding:0 0 9px 29px;
+	}
+.pading{
+	padding:0 0 0 29px;
+}
+.featureimg{
+	float:left;
+	width:auto;
+	}
+.feature{
+	font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	float:right;
+	color:#8F8F8F; background-color:inherit;
+	padding:3px 0 8px 0;
+	width:100px;
+	}
+.featuretextone{
+	font:normal 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#8F8F8F; background-color:inherit;
+	float:left;
+	padding:6px 7px 4px 1px;
+	width:202px;
+	}
+.more{
+	background:url(images/arrow.jpg) no-repeat 145px 7px;
+	font:bold 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	padding:0 0 0 157px;
+}
+.more a{
+	background:url(images/arrow.jpg) no-repeat 140px 50%;
+	font:bold 11px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	text-decoration:none;
+}
+.more a:hover{
+	text-decoration:underline;
+}
+/*---------------------- Welcome part end  -------------------------------*/
+/*---------------------- footer part start  -------------------------------*/
+ul.footernav{
+    list-style-type:none;
+	padding:21px 0 8px 252px;
+	margin:0px;
+	}
+ul.footernav li{
+	background:url(images/footernav-div.jpg) no-repeat left center;
+    float:left;
+	width:auto;
+	}
+ul.footernav li a{
+ 	font:normal 9px/11px Arial, Helvetica, sans-serif;
+	color:#D9CD32; background-color:inherit;
+    text-decoration:none;
+	display:block;
+	margin:0 12px 0 12px;
+}
+ul.footernav li a:hover{
+	color:#D22325; background-color:inherit;
+}
+ul.footernav li a.active{
+	color:#D22325; background-color:inherit;
+	}
+ul.footernav li.noimg{
+	background:none;
+	}
+.copyright{
+	font:bold 10px/16px  Tahoma, Arial, Helvetica, sans-serif;
+	color:#817D6A; background-color:inherit;
+	padding:6px 0 10px 0;
+	}
+.template{
+	font:bold 10px/16px  Tahoma, Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	}
+.template a{
+	font:bold 10px/16px  Tahoma, Arial, Helvetica, sans-serif;
+	color:#D22325; background-color:inherit;
+	text-decoration:underline;
+	}
+.template a:hover{
+	text-decoration:none;
+	}
+/*---------------------- footer part end  -------------------------------*/
